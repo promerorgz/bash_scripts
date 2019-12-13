@@ -3,14 +3,10 @@ function fak {
   
   clear 
 
-  Black='\033[1;90m'      # Black
   Red='\033[1;91m'        # Red
-  Green='\033[1;92m'      # Green
   Yellow='\033[1;93m'     # Yellow
-  Blue='\033[1;94m'       # Blue
   Purple='\033[1;95m'     # Purple
   Cyan='\033[1;96m'       # Cyan
-  White='\033[1;97m'      # White
   NaN='\033[0m'
 
   pid=$(sudo lsof -i tcp:$1 -t)  
